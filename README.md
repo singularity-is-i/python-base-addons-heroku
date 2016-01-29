@@ -21,6 +21,11 @@ $ git push heroku master
 $ heroku run python manage.py migrate
 ```
 
+### Heroku Deploy Button
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/singularity-is-i/python-base-addons-heroku)
+
+
 ## Documentation
 
 For more information about using Python on Heroku, see these Dev Center articles:
