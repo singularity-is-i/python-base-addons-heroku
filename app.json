@@ -5,11 +5,15 @@
   "image": "heroku/python",
   "repository": "https://github.com/singularity-is-i/python-base-addons-heroku",
   "keywords": ["python", "django", "heroku addons" ],
-  "addons": [ "papertrail", 
-		"cleardb", 
-		"heroku-postgresql", 
-		"newrelic", 
-		"memcachedcloud", 
-		"codeship", 
-		"postmark" ]
+  "addons": [ "papertrail:choklad", 
+		"cleardb:ignite", 
+		"rollbar:free", 
+		"heroku-postgresql:hobby-dev", 
+		"newrelic:wayne", 
+		"memcachedcloud:30", 
+		"codeship:free", 
+		"loaderio:basic", 
+		"deployhooks:email", 
+		"deployhooks:hipchat", 
+		"postmark:10k" ]
 }
