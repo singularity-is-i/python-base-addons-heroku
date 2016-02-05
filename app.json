@@ -13,6 +13,7 @@
 		"memcachedcloud:30", 
 		"codeship:free", 
 		"loaderio:basic", 
+		"librato:development", 
 		"deployhooks:email", 
 		"deployhooks:hipchat", 
 		"postmark:10k" ]
